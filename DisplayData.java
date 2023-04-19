@@ -13,7 +13,7 @@ public class DisplayData {
 
             Data data = new Data(ano, mes, dia);
 
-            System.out.printf("A data digitada foi %d/%d/%d", data.getDia(), data.getMes(), data.getAno());
+            System.out.printf("A data digitada foi %02d/%02d/%04d", data.getDia(), data.getMes(), data.getAno());
         }
        
     }
